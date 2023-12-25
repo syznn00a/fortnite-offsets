@@ -1,10 +1,12 @@
+// latest offsets that are used for my novoline source.
+
 enum offsets : std::int32_t {
 	BoneMatrix = 0x149B864,
-	StaticFindObject = 0x3EDBF1C,
+	StaticFindObject = 0x1B23BD0,
 	CurrentVehicle = 0x2840,
 	LastFireTime = 0xC98,
 	LastFireTimeVerified = 0xC9C,
-	CustomTimeDilation = 0x68, // syznn00a
+	CustomTimeDilation = 0x68,
 	GlobalAnimRateScale = 0xA68,
 	Mesh = 0x318,
 	bIsReloadingWeapon = 0x360,
@@ -21,4 +23,4 @@ enum offsets : std::int32_t {
 	WeaponData = 0x4A8,
 };
 
-//https://discord.gg/cSkuGMgpt2
+// discord.gg/winhook
