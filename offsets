@@ -4,7 +4,7 @@
 
 namespace OFFSETS
 {
-// payson1337
+// syznn00a
     uintptr_t UWORLD = 0x11781328; // updated
     uintptr_t Viewpoint = 0x10F90A10;
 
@@ -17,7 +17,7 @@ namespace OFFSETS
     uintptr_t GameState = 0x158;
     uintptr_t PersistentLevel = 0x30;
     uintptr_t LastSubmitTime = 0x368;
-    uintptr_t LastRenderTimeOnScreen = 0x370; // discord.gg/winhook
+    uintptr_t LastRenderTimeOnScreen = 0x370;
 
     uintptr_t ActorCount = 0xA8;
     uintptr_t Cameramanager = 0x348;
@@ -27,7 +27,7 @@ namespace OFFSETS
     uintptr_t Revivefromdbnotime = 0x4AE0;
     uintptr_t TeamId = 0x10E0;
     uintptr_t ActorTeamId = 0x10e0;
-// payson1337
+// syznn00a
     uintptr_t IsDBNO = 0x872;
     uintptr_t LocalActorPos = 0x120;
     uintptr_t ComponetToWorld = 0x240;
@@ -46,78 +46,3 @@ namespace OFFSETS
     uintptr_t SkeletalMeshes = 0x56e;
     uintptr_t PawnMaterials_ALL = 0x5A60;
 }
-
-
-
-
-
-UWorld                         -> 0x1123AF78
-FName                          -> 0x11400C80
-tier                           -> 0x73
-ObjectID                       -> 0x18
-OwningGameInstance             -> 0x1D0
-Levels                         -> 0x170
-GameState                      -> 0x158
-PersistentLevel                -> 0x30
-AActors                        -> 0xA0
-ActorCount                     -> 0xA8
-LocalPlayers                   -> 0x38
-PlayerController               -> 0x30
-AcknowledgedPawn               -> 0x338
-PlayerCameraManager            -> 0x348
-bHidden                        -> 0x58
-RootComponent                  -> 0x198
-RelativeLocation               -> 0x120
-RelativeRotation               -> 0x138
-Mesh                           -> 0x318
-PlayerState                    -> 0x2B0
-TeamIndex                      -> 0x10E0
-ReviveFromDBNOTime             -> 0x4AE0
-LocalActorPos                  -> 0x120
-ComponentToWorld               -> 0x230
-CurrentWeapon                  -> 0xA20
-CurrentVehicle                 -> 0x2840
-bIsReloadingWeapon             -> 0x360
-GlobalAnimRateScale            -> 0xA68
-WeaponData                     -> 0x4A8
-BoneArray                      -> 0x608
-BoneCache                      -> 0x658
-Velocity                       -> 0x168
-TriggerType                    -> 0xB4C
-ReticleDefaultColor            -> 0x6F8
-ReticleEnemyColor              -> 0x6FC
-ReticleBuildingColor           -> 0x700
-ReticleNoTargetColor           -> 0x704
-InputYawScale                  -> 0x538
-InputPitchScale                -> 0x53C
-AmmoCount                      -> 0xDCC
-bIsDBNO                        -> 0x93A
-bIsDying                       -> 0x758
-bAlreadySearched               -> 0xD92
-bActive                        -> 0x2C0
-bPickedUp                      -> 0x5F1
-DisplayName                    -> 0x90
-PrimaryPickupItemEntry         -> 0x350
-ItemDefinition                 -> 0x18
-KillScore                      -> 0x10F4
-TeamKillScore                  -> 0x103C
-WorldSettings                  -> 0x2A0
-WorldGravityZ                  -> 0x310
-AimPitchMin                    -> 0x1620
-AimPitchMax                    -> 0x1624
-JumpStaminaCost                -> 0x2594
-PrimaryFireSound1P             -> 0x7B8
-PrimaryFireSound               -> 0x7C0
-PrimaryFireStopSound1P         -> 0x7D8
-PrimaryFireStopSound           -> 0x7E0
-VehicleAttributes              -> 0x1228
-FrontLateralFrictionScale      -> 0x0
-RearLateralFrictionScale       -> 0x4
-BrakeForceTractionScale        -> 0x8
-ForwardForceTractionScale      -> 0xC
-SlopeAntigravityScale          -> 0x10
-TopSpeedScale                  -> 0x14
-VehicleGravityScale            -> 0x18
-bBrakeBeforeReverse            -> 0x1C
-CachedFuelComponent            -> 0x1250
-ServerFuel                     -> 0xF0
